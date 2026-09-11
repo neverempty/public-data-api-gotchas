@@ -61,3 +61,7 @@ Checked against full downloads counted locally:
 - `creator.name` is the recruiter's personal name.
 - `customFields` held a named individual on one large employer's board, and the value sat in a select-type field (one carrying a `valueId`), so keeping only select-type fields does not remove names.
 - **Avoid:** drop both unless you have a reason to keep them.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/smartrecruiters-jobs-scraper
