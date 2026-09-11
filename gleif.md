@@ -66,3 +66,7 @@ curl -G 'https://api.gleif.org/api/v1/lei-records' \
 
 - 716 LEIs had status ISSUED but were past their next renewal date (2026-09-10).
 - **Avoid:** compare `nextRenewalDate` with today rather than trusting the status column.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/gleif-lei-scraper
