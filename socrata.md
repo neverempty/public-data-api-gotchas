@@ -102,3 +102,7 @@ New York re-checked on 2026-09-11 (issued 2026-09-03 to 09-09): 2,842 rows, 2,41
 
 - Licence numbers are unique. `status` has 10 values (ACTIVE 75,811 / EXPIRED 61,213 / SUSPENDED 9,759 / ...), and 34 ACTIVE licences are past their expiry date.
 - Bonds (`bzff-4fmt`) and insurance (`ciwg-agsx`) are separate datasets with historical rows per licence. Bond expiry is text, either `Until Canceled` or `MM/DD/YYYY`.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/us-building-permits-scraper
