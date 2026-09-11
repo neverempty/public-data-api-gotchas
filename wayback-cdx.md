@@ -77,3 +77,7 @@ curl 'https://web.archive.org/cdx/search/cdx?url=example.com&output=json&limit=1
 
 - Filtering on a field that does not exist returns HTTP 400 with an empty body.
 - Asking for `https://www.example.com/` returns captures stored as `http://example.com:80/`, because the server normalises scheme and `www`.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/wayback-machine-scraper
