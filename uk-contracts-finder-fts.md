@@ -70,3 +70,7 @@ curl 'https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages?updated
 
 - Treating "deadline in the future" as "open" marks planning, awarded and cancelled notices as open (6 of 100 rows).
 - **Avoid:** read the stage and tender status, not only the deadline.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/uk-tenders-scraper
