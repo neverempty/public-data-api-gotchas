@@ -52,3 +52,7 @@ Measured on **2026-09-11**. Example numbers below are fictional (Ofcom drama ran
 
 - The same number written two ways gives the same E.164 (plus extension), so dedupe on that.
 - Scale: 100,000 distinct numbers took 92 seconds in a 512 MB container, peaking at 220 MB.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/phone-number-validator
