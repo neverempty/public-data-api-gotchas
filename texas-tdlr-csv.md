@@ -52,3 +52,7 @@ Measured on **2026-09-11**; the note on the data.texas.gov copy is from **2026-0
 ## Mirror
 
 A copy of the file on data.texas.gov had stopped updating on 7/16 (checked 2026-09-10). Its metadata does not make that obvious, so read the TDLR original.
+
+---
+
+Actor that handles these traps: https://apify.com/neverempty/contractor-license-scraper
